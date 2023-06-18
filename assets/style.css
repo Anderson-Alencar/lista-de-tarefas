@@ -1,5 +1,6 @@
 body {
     font-family: 'Kanit', sans-serif;
+    display: flex;
 }
 
 .left-menu {
@@ -38,3 +39,30 @@ a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
 
+.container-main {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+    background-color:rgb(202, 199, 199);
+    border: solid 1px;
+}
+
+.table-tasks {
+    background-color: white;
+    width: 80%;
+}
+
+.task {
+    padding: 14px;
+}
+
+.title-list {
+    text-align: center;
+    font-size: 27px;
+    padding-bottom: 40px;
+}
+
+.list-morning {
+    border-right: solid 1px;
+}

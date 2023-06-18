@@ -18,3 +18,23 @@ body {
     width: 55%;
     align-self: center;
 }
+
+.list-of-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+.list-of-links li {
+    padding: 10px;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+

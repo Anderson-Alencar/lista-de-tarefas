@@ -1,0 +1,20 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+}
+
+.icon-user {
+    width: 50%;
+}
+
+.text-description {
+    width: 55%;
+    align-self: center;
+}

@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de tarefas</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <aside class="left-menu">
+        <img src="assets/icon-user.png" alt="Ícone padrão" class="icon-user">
+        <div class="text-description">
+            <h2>Nome genérico</h2>
+            <p>Uma breve descrição Uma breve descrição Uma breve descrição Uma breve descrição Uma breve descrição Uma breve descrição</p>
+        </div>
+        <ul class="list-of-links">
+            <li><a href=”#”>Link 1</a></li>
+            <li><a href=”#”>Link 2</a></li>
+            <li><a href=”#”>Link 3</a></li>
+            <li><a href=”#”>Link 4</a></li>
+            </ul>
+    </aside>
+    <main class="container-main">
+        <h1>Lista de tarefas</h1>
+        <table class="table-tasks">
+            <tr>
+                <td class="list-morning">
+                    <h2 class="title-list">Dia</h2>
+                    <ul>
+                        <li class="task">Tarefa matutina I</li>
+                        <li class="task">Tarefa matutina II</li>
+                        <li class="task">Tarefa matutina III</li>
+                        <li class="task">Tarefa matutina IV</li>
+                        <li class="task">Tarefa matutina V</li>
+                    </ul>
+                </td>
+                <td>
+                    <h2 class="title-list">Noite</h2>
+                    <ul>
+                        <li class="task">Tarefa noturna I</li>
+                        <li class="task">Tarefa noturna II</li>
+                        <li class="task">Tarefa noturna III</li>
+                        <li class="task">Tarefa noturna IV</li>
+                        <li class="task">Tarefa noturna V</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </main>
 </body>
 </html>
